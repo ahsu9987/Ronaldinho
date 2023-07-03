@@ -1,0 +1,100 @@
+h2{
+    text-align: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    padding: 5px;
+    color: black;
+    text-decoration: wavy;
+    
+    }
+    body{
+        height: 400px;
+        width: fit-content;
+       background-color: black;
+      
+    }
+    .blink{
+        animation: blinker 1s linear infinite;
+
+    }
+    @keyframes
+    blinker{
+        70%{
+            opacity: 0%;        
+        }
+    }
+    *{
+       box-sizing: border-box;
+    }
+   
+
+    .column{
+        float: left;
+        width: 305px;
+        height: 400px;
+        margin-left: 150px;
+        
+
+    }
+
+ 
+
+   .child{
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 20px;
+   font-family: calibri;
+   font-size: 20px;
+   border: 4px dashed black;
+   background: linear-gradient(to bottom left, #434946 0%, #c9f4db 100%);
+
+  
+  
+   }
+    h1{
+        font-size: 50px;
+        text-decoration: underline;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     .ball{
+        height: 40px;
+       
+     
+     }
+    table,th,td{
+            width: 700px;
+            border: 1px dashed black;
+            border-radius: 5px;
+            text-align: center;
+            text-transform: capitalize;
+            color: black;
+        }
+        th,td{
+            background-color: gray;
+        }
+
+  .underline{
+    text-decoration: none;
+    
+  }
+  div.b-color{
+   background-color: black;
+  }
+
+  div.b-color-first{
+    opacity: 0.3;
+  }
+
+  div.b-color-second{
+    opacity: 0.4;
+  }
+
+  
+  div.b-color-third{
+    opacity: 0.4;
+  }
+
+  div.b-color-for{
+    opacity: 0.4;
+  }
